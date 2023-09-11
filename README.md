@@ -2,9 +2,13 @@
 
 ## Note on protein models
 
-The model for the anti-IL8 scFv is taken from our [scFv-Modelling](https://github.com/iGEMIISc/scFv-Modelling) repository. In particular, we have chosen the ColabFold model generated with PDB70.
+The model for the anti-IL8 scFv (anti-interleukin-8) (single-chain variable fragment) is taken from our [scFv-Modelling](https://github.com/iGEMIISc/scFv-Modelling) repository. In particular, we have chosen the ColabFold model generated with PDB70. We have used ColabFold for a graphic processing unit for folding proteins in a 3-Dimensional format. It has a GDT_TS (Global distance Test) score of 92.4% . This is a rating of the comparision of protein structures with well known amino acid sequences. ColabFold performs a MMseqs-2 based homology search server to find the template of the protein.
 
-The model for IL8 is taken from the [PDB](https://www.rcsb.org/structure/2IL8) (PDB ID: 2IL8). This PDB file consists of 30 models, each with a different conformation of IL8. We have chosen the first model for our docking.
+Interleukin 8 (IL-8) is a chemokine produced by various cell types. This acts as a mediator of inflammation in the tissues and a potent angiogenic factor. It attracts various kinds of phagocytic cells such as neutrophils, basophils and T-cells to stimulate the phagocytosis of cells and promote angiogenesis.
+Being a chemokine ,  it promotes the immune cell migration for the phagocytosis. These belong to a set of monoclonal antibodies which have become a modern class of medicines used for treating various diseases such as cancer , cardiovascular and inflammation diseases.
+The scFv antibody fragments consist of variable regions of heavy (VH) and light chain (VL) of full antibodies that are joined by a linker sequence.
+
+The model for IL8 is taken from the [PDB](https://www.rcsb.org/structure/2IL8) (PDB ID: 2IL8). This PDB file consists of 30 models, each with a different conformation of IL8 in a 3D structure. We have chosen the first model for our docking.
 
 ## Global Range Molecular Matching (GRAMM)
 
